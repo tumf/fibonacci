@@ -6,6 +6,8 @@ This repository contains implementations of a function to calculate the Nth Fibo
 
 *   **Python:** `fibonacci.py`
 *   **Ruby:** `fibonacci.rb`
+*   **PHP:** `fibonacci.php`
+*   **PHP:** `fibonacci.php`
 
 ## Usage
 
