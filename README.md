@@ -16,6 +16,50 @@ import fibonacci
 
 # Calculate the 10th Fibonacci number
 result = fibonacci.fibonacci(10)
+
+### C++
+
+コンパイル:
+
+```sh
+g++ -o fibonacci_cpp fibonacci.cpp
+```
+
+実行例:
+
+```sh
+./fibonacci_cpp 10
+# 出力: 55
+```
+
+テスト:
+
+```sh
+bash test_fibonacci_cpp.sh
+```
+
+
+### C++
+
+コンパイル:
+
+```sh
+g++ -o fibonacci_cpp fibonacci.cpp
+```
+
+実行例:
+
+```sh
+./fibonacci_cpp 10
+# 出力: 55
+```
+
+テスト:
+
+```sh
+bash test_fibonacci_cpp.sh
+```
+
 print(result)  # Output: 55
 ```
 
