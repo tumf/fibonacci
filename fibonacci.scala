@@ -7,19 +7,44 @@
 //   The Nth Fibonacci number. Returns -1 for negative input.
 object Fibonacci {
   def fibonacci(n: Int): Int = {
-    if (n < 0) return -1
-    if (n == 0) return 0
-    if (n == 1) return 1
-    var a = 0
-    var b = 1
-    for (_ <- 2 to n) {
-      val temp = b
-      b = a + b
-      a = temp
+    if (n < 0) -1
+    else if (n == 0) 0
+    else if (n == 1) 1
+    else {
+      var a = 0
+      var b = 1
+      for (_ <- 2 to n) {
+        val tmp = a + b
+        a = b
+        b = tmp
+      }
+      b
     }
-    b
+  }
+
+  // Example usage
+  def main(args: Array[String]): Unit = {
+    println(fibonacci(10)) // Output: 55
   }
 }
+    if (n < 0) -1
+    else if (n == 0) 0
+    else if (n == 1) 1
+    else {
+      var a = 0
+      var b = 1
+      for (_ <- 2 to n) {
+        val tmp = a + b
+        a = b
+        b = tmp
+      }
+      b
+    }
+  }
 
-// Example usage:
-// println(Fibonacci.fibonacci(10)) // Output: 55
+  // Example usage
+  def main(args: Array[String]): Unit = {
+    println(fibonacci(10)) // Output: 55
+  }
+}
+>>>>>>> 5ccdc5d (Add Scala implementation and tests for Fibonacci sequence)
