@@ -1,0 +1,9 @@
+[package]
+name = "fibonacci"
+version = "0.1.0"
+edition = "2021"
+
+authors = ["tumf <tumf@example.com>"]
+description = "Fibonacci number calculator in Rust."
+
+[dependencies]
