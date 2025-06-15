@@ -4,3 +4,5 @@ This directory contains a Rust implementation of a function to calculate the Nth
 
 ## Library Usage
 
+Add this crate as a dependency, then use the `fibonacci` function:
+
