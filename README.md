@@ -16,6 +16,40 @@ import fibonacci
 
 # Calculate the 10th Fibonacci number
 result = fibonacci.fibonacci(10)
+
+### C
+
+ビルド:
+
+```
+gcc -o fibonacci_c fibonacci.c
+```
+
+実行:
+
+```
+./fibonacci_c
+```
+
+main関数内で複数のテストケースが自動実行されます。
+
+
+### C
+
+ビルド:
+
+```
+gcc -o fibonacci_c fibonacci.c
+```
+
+実行:
+
+```
+./fibonacci_c
+```
+
+main関数内で複数のテストケースが自動実行されます。
+
 print(result)  # Output: 55
 ```
 
