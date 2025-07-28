@@ -1,14 +1,17 @@
-# Fibonacci Number Calculator
+# Fibonacci Implementations
 
-This repository contains implementations of a function to calculate the Nth Fibonacci number in different programming languages.
+This repository contains implementations of the Fibonacci sequence in various programming languages.
 
 ## Implementations
 
-*   **Python:** `fibonacci.py`
-*   **Ruby:** `fibonacci.rb`
-*   **C++:** `fibonacci.cpp`
+- **C++**: `fibonacci.cpp`
+- **Python**: `fibonacci.py`
+- **Ruby**: `fibonacci.rb`
+- **Shell (POSIX sh)**: `fibonacci.sh`
 
 ## Usage
 
-### Python
+### Shell (POSIX sh)
+
+Print the first N Fibonacci numbers:
 
