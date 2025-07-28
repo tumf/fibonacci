@@ -1,17 +1,14 @@
 # Fibonacci Implementations
 
-This repository contains implementations of the Fibonacci sequence in various programming languages.
+This repository contains implementations of the Fibonacci sequence in multiple languages:
 
-## Implementations
+- C++ (`fibonacci.cpp`)
+- Python (`fibonacci.py`)
+- Ruby (`fibonacci.rb`)
+- Bash (`fibonacci.sh`)
+- JavaScript (`fibonacci.js`)
 
-- **C++**: `fibonacci.cpp`
-- **Python**: `fibonacci.py`
-- **Ruby**: `fibonacci.rb`
-- **Shell (POSIX sh)**: `fibonacci.sh`
+## JavaScript Usage
 
-## Usage
-
-### Shell (POSIX sh)
-
-Print the first N Fibonacci numbers:
+To run the JavaScript version:
 
