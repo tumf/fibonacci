@@ -1,17 +1,10 @@
-# Fibonacci Implementations
+# Fibonacci
 
-This repository contains implementations of the Fibonacci sequence in various programming languages.
+This repository contains implementations of the Fibonacci sequence in various languages.
 
-## Implementations
+## C Implementation
 
-- **C++**: `fibonacci.cpp`
-- **Python**: `fibonacci.py`
-- **Ruby**: `fibonacci.rb`
-- **Shell (POSIX sh)**: `fibonacci.sh`
+A C implementation is available in `fibonacci.c`.
 
-## Usage
-
-### Shell (POSIX sh)
-
-Print the first N Fibonacci numbers:
+### Build and Run
 
