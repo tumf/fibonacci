@@ -7,21 +7,31 @@ import (
 )
 
 func fibonacci(n int) int {
-	if n <= 1 {
-		return n
+	if n < 0 {
+		return 0
 	}
-	return fibonacci(n-1) + fibonacci(n-2)
+	if n == 0 {
+		return 0
+	}
+	if n == 1 {
+		return 1
+	}
+	a, b := 0, 1
+	for i := 2; i <= n; i++ {
+		a, b = b, a+b
+	}
+	return b
 }
 
 func main() {
-	if len(os.Args) < 2 {
+	if len(os.Args) != 2 {
 		fmt.Println("Usage: go run fibonacci.go <n>")
-		return
+		os.Exit(1)
 	}
 	n, err := strconv.Atoi(os.Args[1])
-	if err != nil || n < 0 {
-		fmt.Println("Please provide a non-negative integer.")
-		return
+	if err != nil {
+		fmt.Println("Invalid integer argument.")
+		os.Exit(1)
 	}
 	fmt.Println(fibonacci(n))
 }
